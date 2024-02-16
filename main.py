@@ -3,7 +3,7 @@
 import telebot
 
 #about tokens you can read in "YouMayDontReadThis"
-bot = telebot.TeleBot("6693417645:AAHPeop5jUs15cGCtrp2qr0Ah7tgOGXE_T8")
+bot = telebot.TeleBot("YOUR_TOKEN")
 
 #first command, /start in tg chat
 @bot.message_handler(commands=["start"])    # IMPORTANT, write commands without slash
