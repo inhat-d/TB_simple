@@ -17,7 +17,7 @@ def help(message):
   bot.send_message(message.chat.id, "/start - hello command")
   bot.send_message(message.chat.id, "/help - this command")    #also you can write many messages
 
-#there are many other teams, you can learn about them on YouTube 
+#there are many other commands, you can learn about them on YouTube 
 
 bot.polling(none_stop=True)
 #this command exists to prevent the project from terminating
